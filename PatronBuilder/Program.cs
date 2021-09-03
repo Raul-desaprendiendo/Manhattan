@@ -5,7 +5,16 @@ using System.Linq;
 namespace PatronBuilder_Kata2
 {
 
-
+	/// <summary>
+	/// METODO TOSTRING:
+	/// Se sobre carga el método toString básicamente para poder mostrar lo que nosotros queremos,
+	/// si no se sobrecarga y se edita, se pinta o bien la direccion de memoria, o el nombre del obj.
+	/// 
+	/// 
+	/// PATRONES PARECIDO:
+	/// Factory Comparison y Prototype.
+	/// Se parece bastante la forma de aplicar el patron, puesto que se ramifican para distintos usos.
+	/// </summary>
 	internal class Program
 	{
 		private static void Main(string[] args)
