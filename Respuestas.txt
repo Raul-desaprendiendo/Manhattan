@@ -1,0 +1,15 @@
+		METODO TOSTRING:
+Se sobre carga el método toString básicamente para poder mostrar lo que nosotros queremos,
+si no se sobrecarga y se edita, se pinta o bien la direccion de memoria, o el nombre del obj.
+
+
+		PATRONES PARECIDOS:
+Factory Comparison y Prototype.
+Se parece bastante la forma de aplicar el patron, puesto que se ramifican para distintos usos.
+
+Fuente: https://www.dofactory.com/net/prototype-design-pattern
+
+
+		MEJORAS POSIBLE
+A priori lo hubiera hecho similiar, aunque me hubiera planteado realizar algun tipo de clase de ENUM
+para facilitar el uso de las variables de cafe...
