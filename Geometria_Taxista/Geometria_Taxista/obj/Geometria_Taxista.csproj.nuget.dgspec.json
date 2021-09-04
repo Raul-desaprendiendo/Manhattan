@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G1\\source\\repos\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj": {}
+    "C:\\Users\\G1\\Source\\Repos\\Manhattan\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G1\\source\\repos\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj": {
+    "C:\\Users\\G1\\Source\\Repos\\Manhattan\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G1\\source\\repos\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj",
+        "projectUniqueName": "C:\\Users\\G1\\Source\\Repos\\Manhattan\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj",
         "projectName": "Geometria_Taxista",
-        "projectPath": "C:\\Users\\G1\\source\\repos\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj",
+        "projectPath": "C:\\Users\\G1\\Source\\Repos\\Manhattan\\Geometria_Taxista\\Geometria_Taxista\\Geometria_Taxista.csproj",
         "packagesPath": "C:\\Users\\G1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G1\\source\\repos\\Geometria_Taxista\\Geometria_Taxista\\obj\\",
+        "outputPath": "C:\\Users\\G1\\Source\\Repos\\Manhattan\\Geometria_Taxista\\Geometria_Taxista\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

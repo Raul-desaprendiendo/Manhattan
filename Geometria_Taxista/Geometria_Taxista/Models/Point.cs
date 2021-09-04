@@ -23,7 +23,7 @@ namespace Geometria_Taxista.Models
 
         }
         /// <summary>
-        /// it compares both columns, and get the correct number.
+        /// it compares both columns and get the correct number.
         /// </summary>
         /// <param name="endPoint"></param>
         /// <returns></returns>
