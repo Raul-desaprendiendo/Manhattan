@@ -16,14 +16,6 @@ namespace Manhattan.Models
             _row = row;
             _column = column;
         }
-        public int CalcColumn(Point endPoint)
-        {
-            return Math.Abs(_column - endPoint._column);
-        }
-        public int CalcRow(Point endPoint)
-        {
-            return Math.Abs(_row - endPoint._row);
-        }
 
         public int ManhattanDistance(Point point1, Point point2)
         {

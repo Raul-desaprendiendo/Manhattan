@@ -15,7 +15,7 @@ namespace Manhattan.Service
         }
         public void ManhattanDistancePrivate(IntPoint point1, IntPoint point2, MethodInfo Method)
         {
-            Console.WriteLine($"Manhattan Distance ptos : {point1.CalcColumn(point2) + point1.CalcRow(point2)}");
+            Console.WriteLine($"Manhattan Distance ptos : {point1.ManhattanDistancePrivate(point1, point2) + point1.ManhattanDistancePrivate(point1, point2)}");
         }
 
     }
