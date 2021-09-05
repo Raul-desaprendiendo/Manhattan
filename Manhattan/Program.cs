@@ -1,5 +1,10 @@
-﻿using System;
+﻿using Manhattan.Model;
+using Manhattan.Models;
+using Manhattan.Service;
+using Manhattan.Interface;
+using System;
 using System.Collections;
+using System.Reflection;
 
 namespace Manhattan
 {
@@ -14,9 +19,22 @@ namespace Manhattan
             Point point5 = new Point(1, 1);
             Point point6 = new Point(0, 3);
 
-            Console.WriteLine("Manhattan Distance ptos (1, 1) y (1, 1) " + ManhattanService.manhattanDistance(point1,point2));
-            Console.WriteLine("Manhattan Distance ptos (5, 4) y (3, 2) " + ManhattanService.manhattanDistance(point3, point4));
-            Console.WriteLine("Manhattan Distance ptos (1,1) y (0,3) " + ManhattanService.manhattanDistance(point5, point6));
+            MeassurementService meassurementService = new MeassurementService();
+
+            meassurementService.ManhattanDistance(point1, point2);
+            meassurementService.ManhattanDistance(point3, point4);
+            meassurementService.ManhattanDistance(point5, point6);
+
+            IntPoint point55 = new IntPoint(1, 1);
+            IntPoint point66 = new IntPoint(0, 3);
+
+            MethodInfo privMethod = point55.GetType().GetMethod("ManhattanDistancePrivate", BindingFlags.NonPublic | BindingFlags.Instance);
+            
+            privMethod.Invoke(point55, new object[] { point55, point66 });
+
+
+            meassurementService.ManhattanDistancePrivate(point55, point66, privMethod);
+
         }
 
         
