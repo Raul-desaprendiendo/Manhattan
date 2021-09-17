@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manhattan", "Manhattan\Manhattan.csproj", "{C5FC5FAD-4AA0-49A6-9BC3-47723B0230FD}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFManhattan", "WCFManhattan\", "{B9B6F84F-D3B0-410A-9F04-D4C74D62DEA1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{babfb662-c372-47ab-bfd3-255a1ef68b14}|Manhattan.library.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56775"
+		Debug.AspNetCompiler.PhysicalPath = "WCFManhattan\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56775\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56775"
+		Release.AspNetCompiler.PhysicalPath = "WCFManhattan\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56775\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56775"
+		SlnRelativePath = "WCFManhattan\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManhattanService", "ManhattanService\ManhattanService.csproj", "{7F3ADF78-3C89-4CDE-B3F6-6061744F088A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manhattan.library", "Manhattan.library\Manhattan.library.csproj", "{BABFB662-C372-47AB-BFD3-255A1EF68B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manhattan.console", "Manhattan.console\Manhattan.console.csproj", "{F9EA67CD-8B30-4FB8-AA33-9B64D5A5CE5D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B9B6F84F-D3B0-410A-9F04-D4C74D62DEA1} = {B9B6F84F-D3B0-410A-9F04-D4C74D62DEA1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +39,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5FC5FAD-4AA0-49A6-9BC3-47723B0230FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5FC5FAD-4AA0-49A6-9BC3-47723B0230FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5FC5FAD-4AA0-49A6-9BC3-47723B0230FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5FC5FAD-4AA0-49A6-9BC3-47723B0230FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F3ADF78-3C89-4CDE-B3F6-6061744F088A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F3ADF78-3C89-4CDE-B3F6-6061744F088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F3ADF78-3C89-4CDE-B3F6-6061744F088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F3ADF78-3C89-4CDE-B3F6-6061744F088A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B6F84F-D3B0-410A-9F04-D4C74D62DEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B6F84F-D3B0-410A-9F04-D4C74D62DEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B6F84F-D3B0-410A-9F04-D4C74D62DEA1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B6F84F-D3B0-410A-9F04-D4C74D62DEA1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BABFB662-C372-47AB-BFD3-255A1EF68B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABFB662-C372-47AB-BFD3-255A1EF68B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABFB662-C372-47AB-BFD3-255A1EF68B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABFB662-C372-47AB-BFD3-255A1EF68B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EA67CD-8B30-4FB8-AA33-9B64D5A5CE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EA67CD-8B30-4FB8-AA33-9B64D5A5CE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EA67CD-8B30-4FB8-AA33-9B64D5A5CE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EA67CD-8B30-4FB8-AA33-9B64D5A5CE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
